@@ -1,5 +1,5 @@
 {
-  "Minesites": {
+  "Minesite": {
       "AWSAccountId": "int",
       "ChunkBucketAWSARN": "string",
       "CollectionCustomSpatialReferenceId": "string",
