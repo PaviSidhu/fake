@@ -6,7 +6,7 @@
     "createdAt": "date",
     "comments": "post[]"
   },
-  "post": {
+  "Minesite": {
       "AWSAccountId": "int",
       "ChunkBucketAWSARN": "string",
       "CollectionCustomSpatialReferenceId": "string",
