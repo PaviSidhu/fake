@@ -1,13 +1,32 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
-  },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+  "Minesites": "Minesite[]",
+  "Minesite:{
+      "AWSAccountId": "int",
+      "ChunkBucketAWSARN": "string",
+      "CollectionCustomSpatialReferenceId": "string",
+      "CompanyAPIURL": "string",
+      "CompanyId": "string",
+      "ConfigurationBucketAWSARN": "string",
+      "CreatedAt": "int",
+      "DataProcessingChannelsSDBARN": "string",
+      "DataProcessingEnvironmentId": "string",
+      "DataProcessingReadOnlySTSRoleARN": "string",
+      "DataProcessingVersionTrackingSDBARN": "string",
+      "FailedResultsBucketAWSARN": "string",
+      "FirstShiftOffsetHistory": "string",
+      "Id": "string",
+      "IsAMock": "boolean",
+      "IsActive": "boolean",
+      "MediaBucketAWSARN": "string",
+      "Name": "string",
+      "Note": "string",
+      "PrimaryAWSRegionName": "string",
+      "PrimaryShiftPatterns": "string",
+      "ResultsBucketAWSARN": "string",
+      "ShortId": "string",
+      "TimezoneTZFilename": "string",
+      "UpdatedAt": "int",
+      "UploadChunksBucketAWSARN": "string",
+      "UploadsBucketAWSARN": "string"
   }
 }
