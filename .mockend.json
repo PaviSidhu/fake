@@ -1,11 +1,5 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "post[]"
-  },
+  "Minesites": "Minesite[]",
   "Minesite": {
       "AWSAccountId": "int",
       "ChunkBucketAWSARN": "string",
